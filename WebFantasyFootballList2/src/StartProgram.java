@@ -138,7 +138,7 @@ public class StartProgram {
 		//for loop will use the method from the list helper
 		List<ListRoster>allPlayers = lih.showAllPlayers();
 		for(ListRoster singlePlayer : allPlayers) {
-			System.out.println(singlePlayer.returnRosterDetails());
+			System.out.println(singlePlayer.toString());
 		}
 	}
 

@@ -59,8 +59,13 @@ public class ListRoster {
 		this.name = name;
 	}
 	
-	public String returnRosterDetails() {
-		return position + ": " + name;
+	@Override
+	public String toString() {
+		return "ListRoster [position=" + position + ", name=" + name + "]";
 	}
+
+	//public String returnRosterDetails() {
+	//	return position + ": " + name;
+	//}
 
 }
